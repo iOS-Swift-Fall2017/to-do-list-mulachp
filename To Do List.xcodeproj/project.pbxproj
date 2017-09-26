@@ -12,6 +12,7 @@
 		CDB923F21F7A066600D6DAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB923F01F7A066600D6DAF5 /* Main.storyboard */; };
 		CDB923F41F7A066600D6DAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB923F31F7A066600D6DAF5 /* Assets.xcassets */; };
 		CDB923F71F7A066600D6DAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB923F51F7A066600D6DAF5 /* LaunchScreen.storyboard */; };
+		CDB923FF1F7A0F6B00D6DAF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB923FE1F7A0F6B00D6DAF5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CDB923F31F7A066600D6DAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB923F61F7A066600D6DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB923F81F7A066600D6DAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB923FE1F7A0F6B00D6DAF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CDB923EC1F7A066600D6DAF5 /* AppDelegate.swift */,
 				CDB923EE1F7A066600D6DAF5 /* ViewController.swift */,
 				CDB923F01F7A066600D6DAF5 /* Main.storyboard */,
+				CDB923FE1F7A0F6B00D6DAF5 /* DetailViewController.swift */,
 				CDB923F31F7A066600D6DAF5 /* Assets.xcassets */,
 				CDB923F51F7A066600D6DAF5 /* LaunchScreen.storyboard */,
 				CDB923F81F7A066600D6DAF5 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB923FF1F7A0F6B00D6DAF5 /* DetailViewController.swift in Sources */,
 				CDB923EF1F7A066600D6DAF5 /* ViewController.swift in Sources */,
 				CDB923ED1F7A066600D6DAF5 /* AppDelegate.swift in Sources */,
 			);
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8B7BLF292L;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pmulach.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8B7BLF292L;
 				INFOPLIST_FILE = "To Do List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pmulach.To-Do-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
